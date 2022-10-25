@@ -7,14 +7,18 @@ The selected algorithme are NIST finalists:
 
 
 ## What will be demonstrated:
-The syntax of APDU is:
+The syntax of APDU (byte string to be send to Nano) are:
 
 FALCON Keygen:
+
 FALCON Sign:
+
 FALCON Verify:
 
 KYBER Keygen:
+
 KYBER Encaps:
+
 KYBER Decaps:
 
 
