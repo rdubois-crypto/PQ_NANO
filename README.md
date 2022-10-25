@@ -7,7 +7,8 @@ The selected algorithme are NIST finalists:
 
 
 ## Building the project:
-
+### install Nano developper environment : 
+> https://developers.ledger.com/docs/nano-app/build/
 ### install ledger ctrl :
 > pip3 install "ledgercomm[hid]"
  
