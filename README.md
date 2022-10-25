@@ -3,14 +3,14 @@ A short bench of PQ primitives on a Nano Application
 
 A little integration of PQ primitives on a Nano.
 
-Building the project:
+## Building the project:
 
-## /* install ledger ctrl*/
- pip3 install "ledgercomm[hid]"
+- install ledger ctrl
+  pip3 install "ledgercomm[hid]"
  
  
-## /* compile and install */
-###compile inside docker the root of app
+-  compile and install 
+compile inside docker the root of app
 
 sudo docker run --rm -ti -v "/dev/bus/usb:/dev/bus/usb" -v "$(realpath .):/app" --privileged ledger-app-builder:latest
 BOLOS_SDK=$NANOSP_SDK make clean
