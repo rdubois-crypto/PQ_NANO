@@ -6,6 +6,19 @@ The selected algorithme are NIST finalists:
 - falcon (the lowest bandwidth/storage candidate)
 
 
+## What will be demonstrated:
+The syntax of APDU is:
+
+FALCON Keygen:
+FALCON Sign:
+FALCON Verify:
+
+KYBER Keygen:
+KYBER Encaps:
+KYBER Decaps:
+
+
+
 ## Building the project:
 ### install Nano developper environment : 
 > https://developers.ledger.com/docs/nano-app/build/
