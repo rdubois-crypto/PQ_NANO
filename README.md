@@ -1,7 +1,10 @@
 # PQ_NANO
-A short bench of PQ primitives on a Nano Application
 
-A little integration of PQ primitives on a Nano.
+A little NanoApp integration of PQ primitives on a Nano.
+The selected algorithme are NIST finalists:
+- kyber (as the sole lattice KEM remaining)
+- falcon (the lowest bandwidth/storage candidate)
+
 
 ## Building the project:
 
@@ -21,4 +24,6 @@ A little integration of PQ primitives on a Nano.
 ### install (unlock nano with PIN, then type)
 > ledgerctl install -f nanosp.json
 
-
+## Related project:
+- falcon low footprint: https://falcon-sign.info/Falcon-impl-20211101.zip
+- pqm4 :https://github.com/mupq/pqm4
